@@ -1,4 +1,4 @@
-const API = "https://teste-production-e391.up.railway.app/merge";
+const API = "teste1204-production.up.railway.app/merge";
 
 async function merge() {
   const input = document.getElementById("files");
