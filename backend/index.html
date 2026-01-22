@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Toolzinha Braba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🔥 PDF Tools</h1>
+  <p class="subtitle">Junta, divide e faz magia com PDF</p>
+
+  <div class="tabs">
+    <button class="active">Juntar PDF</button>
+    <button disabled>Dividir (em breve)</button>
+    <button disabled>Converter</button>
+  </div>
+
+  <div class="card">
+    <input type="file" id="files" multiple accept="application/pdf">
+    <button type="button" onclick="merge()">Juntar PDFs</button>
+    <p id="status"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
