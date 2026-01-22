@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 420px;
+  background: #020617;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 0 40px rgba(0,0,0,.6);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: #94a3b8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input[type="file"] {
+  background: #020617;
+  color: #94a3b8;
+}
+
+button {
+  background: #2563eb;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#status {
+  text-align: center;
+  font-size: 14px;
+  color: #38bdf8;
+}
